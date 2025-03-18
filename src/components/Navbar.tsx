@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link 
           to="/" 
-          className="flex items-center space-x-2 text-figma-black font-medium text-xl"
+          className="flex items-center space-x-2 text-figma-black"
         >
           <div className="flex space-x-1">
             <span className="h-5 w-5 rounded-tl-lg bg-figma-red"></span>
@@ -38,22 +38,22 @@ const Navbar = () => {
             <span className="h-5 w-5 rounded-bl-lg bg-figma-blue"></span>
             <span className="h-5 w-5 rounded-br-lg bg-figma-green"></span>
           </div>
-          <span className="ml-2 hidden sm:inline-block font-sans font-medium">Figma</span>
+          <span className="ml-2 hidden sm:inline-block font-sans">Figma</span>
         </Link>
 
         <div className="hidden md:flex items-center space-x-8">
-          <a href="https://www.figma.com/product" target="_blank" rel="noopener noreferrer" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
+          <Link to="/products" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
             Products
-          </a>
-          <a href="https://www.figma.com/enterprise" target="_blank" rel="noopener noreferrer" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
+          </Link>
+          <Link to="/enterprise" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
             Enterprise
-          </a>
-          <a href="https://www.figma.com/resources" target="_blank" rel="noopener noreferrer" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
+          </Link>
+          <Link to="/resources" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
             Resources
-          </a>
-          <a href="https://www.figma.com/pricing" target="_blank" rel="noopener noreferrer" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
+          </Link>
+          <Link to="/pricing" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
             Pricing
-          </a>
+          </Link>
         </div>
 
         <div className="flex items-center space-x-4">

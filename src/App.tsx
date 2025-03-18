@@ -9,6 +9,10 @@ import Index from "./pages/Index";
 import Login from "./pages/Login";
 import Projects from "./pages/Projects";
 import Workspace from "./pages/Workspace";
+import Products from "./pages/Products";
+import Enterprise from "./pages/Enterprise";
+import Resources from "./pages/Resources";
+import Pricing from "./pages/Pricing";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
@@ -26,6 +30,10 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/workspace" element={<Workspace />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/enterprise" element={<Enterprise />} />
+            <Route path="/resources" element={<Resources />} />
+            <Route path="/pricing" element={<Pricing />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
