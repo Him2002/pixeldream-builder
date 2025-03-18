@@ -38,22 +38,22 @@ const Navbar = () => {
             <span className="h-5 w-5 rounded-bl-lg bg-figma-blue"></span>
             <span className="h-5 w-5 rounded-br-lg bg-figma-green"></span>
           </div>
-          <span className="ml-2 hidden sm:inline-block">Figma Clone</span>
+          <span className="ml-2 hidden sm:inline-block font-sans font-medium">Figma</span>
         </Link>
 
         <div className="hidden md:flex items-center space-x-8">
-          <Link to="/" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
+          <a href="https://www.figma.com/product" target="_blank" rel="noopener noreferrer" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
             Products
-          </Link>
-          <Link to="/" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
+          </a>
+          <a href="https://www.figma.com/enterprise" target="_blank" rel="noopener noreferrer" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
             Enterprise
-          </Link>
-          <Link to="/" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
+          </a>
+          <a href="https://www.figma.com/resources" target="_blank" rel="noopener noreferrer" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
             Resources
-          </Link>
-          <Link to="/" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
+          </a>
+          <a href="https://www.figma.com/pricing" target="_blank" rel="noopener noreferrer" className="text-figma-gray-700 hover:text-figma-gray-900 transition-colors">
             Pricing
-          </Link>
+          </a>
         </div>
 
         <div className="flex items-center space-x-4">
