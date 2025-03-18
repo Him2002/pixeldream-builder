@@ -19,7 +19,7 @@ const Login = () => {
     setTimeout(() => {
       setIsLoading(false);
       toast.success("Successfully logged in");
-      navigate("/workspace");
+      navigate("/projects");
     }, 1500);
   };
   
@@ -31,7 +31,7 @@ const Login = () => {
     setTimeout(() => {
       setIsLoading(false);
       toast.success("Account created successfully");
-      navigate("/workspace");
+      navigate("/projects");
     }, 1500);
   };
 
